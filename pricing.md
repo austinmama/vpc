@@ -70,18 +70,6 @@ If you have a public gateway or floating IP, you might still see some minimal eg
 
 A floating IP is charged at the rate of $1 (US) per month, starting when it is reserved. The fee is charged even if the floating IP is not associated to a VSI or not in use. The $1 for the monthly fee is charged even if the floating IP is reserved for only a few days.
 
-## Pricing for load balancers for VPC 
-{: #lb-for-vpc-pricing}
-
-Load balancers for VPC are currently in Beta. There are no charges for their use.
-
-
-## Pricing for VPN for VPC 
-{: #vpn-for-vpc-pricing}
-
-VPNs for VPC are currently in Beta. There are no charges for their use.
-
-
 ## Pricing for Virtual Servers for VPC
 {: #pricing-for-virtual-servers-for-vpc}
 [comment]: # (linked help topic)
