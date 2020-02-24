@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-01-13"
+lastupdated: "2020-02-21"
 
 subcollection: vpc
 
@@ -34,7 +34,7 @@ Yes, you can set up access to your {{site.data.keyword.cloud}} classic infrastru
 {: #faq-vpc-1}
 {: faq}
 
-No.
+No. You cannot change the size of a subnet after it is created.
 
 ## What is the limit on the number of characters in a VPC name?
 {: #faq-vpc-2}
@@ -58,7 +58,7 @@ Yes, the UI blocks consecutive double dashes, underscores, and periods from bein
 {: #faq-vpc-5}
 {: faq}
 
-No.
+No. You cannot change the size of a subnet after you create it in a VPC.
 
 ## During the PGW creation, do I need to reserve the FIP, or does the system automatically reserve the FIP? Will I see that Floating IP when I query all of the Floating IPs?
 {: #faq-vpc-6}
@@ -71,3 +71,10 @@ The VPC API automatically creates a floating IP along with the public gateway if
 {: faq}
 
 The VPC API service enforces this limit.
+
+## How do I obtain the Cloud Resource Name (CRN) for a VPN?
+{: #faq-crn}
+{: faq}
+
+To obtain the CRN of a VPC, click **Menu** ![Menu icon](../icons/icon_hamburger.svg) > **Resource list** from the {{site.data.keyword.cloud_notm}} console. Expand **VPC Infrastructure** to list your VPCs. Select a VPC and then click 
+the **Status** entry to view its details. Use the icon to copy the CRN and paste it where needed.
