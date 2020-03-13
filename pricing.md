@@ -26,7 +26,7 @@ subcollection: vpc
 # Pricing for VPC
 {: #pricing-for-vpc}
 
-Pricing of {{site.data.keyword.vpc_full}} is applied separately for [internet data transfer](#pricing-for-data-transfer), [load balancers](#lb-for-vpc-pricing), [VPNs](#vpn-for-vpc-pricing), [virtual server instances](#pricing-for-virtual-servers-for-vpc), and [block storage](#pricing-for-block-storage-for-vpc) used within your {{site.data.keyword.vpc_short}}. The following charges apply to your use of {{site.data.keyword.vpc_short}}. For PayGo services, the service tiers are bound to your account, not to any specific VPC instance. Amounts are shown in US dollars.
+Pricing of {{site.data.keyword.vpc_full}} is applied separately for [internet data transfer](#pricing-for-data-transfer), [load balancers](#lb-for-vpc-pricing), [VPNs](#vpn-for-vpc-pricing), [virtual server instances](#pricing-for-virtual-servers-for-vpc), and [block storage](#pricing-for-block-storage-for-vpc) used within your {{site.data.keyword.vpc_short}}. The following charges apply to your use of {{site.data.keyword.vpc_short}}. For services billed on a consumption basis, the service tiers are bound to your account, not to any specific VPC instance. Amounts are shown in US dollars.
 
 ## Pricing for internet data transfer with IBM Cloud™ Virtual Private Cloud
 {: #pricing-for-data-transfer}
