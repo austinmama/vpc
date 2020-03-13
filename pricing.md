@@ -3,7 +3,7 @@
 copyright:
   years: 2017, 2020
 
-lastupdated: "2020-02-14"
+lastupdated: "2020-03-13"
 
 keywords: vpc, pricing, billing, data, instance, VSI, block, storage, paygo, transfer, floating, server, VPC, allowance, gateway, egress, minimal charges, ARP, traffic
 
@@ -200,10 +200,10 @@ The following operating systems are included free of charge:
 
 Premium operating systems and other add-ons are available. You'll see the pricing in your Cost Summary.
 
-| Premium operating system       | Amount of data    |  PayGo Pricing     |
+| Premium operating system       | Amount of data    |  Standard pricing     |
 | ------------------------------ | ----------------- | ---------------------- |
-| Red Hat Enterprise Linux 7.x   | 1-4 cores         | $.08 per core per hour   |     
-| Red Hat Enterprise Linux 7.x   | 5-64 cores        | $.13 per core per hour   |   
+| Red Hat Enterprise Linux 7.x   | 1-4 vCPUs         | $.08 per instance-hour  |     
+| Red Hat Enterprise Linux 7.x   | 5-64 vCPUs        | $.13 per instance-hour  |   
 | Windows 2012, 2012 R2, 2016    |                   | $.04 per core per hour  |            
 {: caption="Table 4. Premium operating system pricing" caption-side="top"}
 
