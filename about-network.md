@@ -91,9 +91,17 @@ A **Public Gateway** enables a subnet and all its attached virtual server instan
 
 Public gateways use _Many-to-1 NAT_, which means that thousands of instances with private addresses use one public IP address to communicate with the public internet.
 
+The following figure summarizes the current scope of gateway services.
+
+| SNAT | DNAT | ACL | VPN |
+| ---- | ---- | --- | --- |
+| Instances can have outbound-only access to the Internet | Allow inbound connectivity from the Internet to a Private IP | Provide restricted inbound access from the Internet to instances or subnets | Site-to-Site VPN handles customers of any size, and single or multiple locations |
+| Entire subnets share the same outbound public endpoint | Provides limited access to a single private server | Restrict access inbound from Internet, based on service, protocol, or port | High throughput (up to 10 Gbps) provides customers the ability to transfer large data files securely and quickly |
+| Protects instances; Cannot initiate access to instances through the public endpoint | DNAT service can be scaled up or down, based on requirements | Stateless ACLs allow for granular control of traffic | Create secure connections with industry standard encryption |
+
 You can create only one public gateway per zone, but that public gateway can be attached to multiple subnets in the zone.
 {:tip}
-
+ 
 ### Use a Floating IP address for external connectivity of a virtual server instance
 {: #floating-ip-for-external-connectivity}
 
