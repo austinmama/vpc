@@ -77,7 +77,7 @@ You cannot change the COS bucket location for an existing flow log collector. Yo
 
 You cannot change the target scope for an existing flow log collector. You can delete the existing collector and create a new one with the desired target scope.
 
-## Do I need to suspend the flow log collector before deleting it?
+## Do I need to suspend a flow log collector before deleting it?
 {: #faq-suspend-before-you-delete-flow-log-collector}
 {: faq}
 {: support}
