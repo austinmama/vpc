@@ -48,7 +48,7 @@ Prior to creating a flow log collector, ensure that you have met the following p
 
 To create a flow log collector by using the IBM Cloud console, follow these steps:
 
-1. Log in to your whitelisted IBM Cloud account and go to [https://cloud.ibm.com/vpc-ext/network/flowLogs](https://test.cloud.ibm.com/vpc-ext/network/flowLogs). The flow logs list view appears.
+1. Log in to your whitelisted IBM Cloud account and go to [https://cloud.ibm.com/vpc-ext/network/flowLogs](https://cloud.ibm.com/vpc-ext/network/flowLogs). The flow logs list view appears.
 
   ![Flow Log Collector List View](./images/list-view-01.png "Flow Log Collector List View")
 
