@@ -3,7 +3,7 @@
 copyright:
   years: 2019, 2020
 
-lastupdated: "2020-06-02"
+lastupdated: "2020-06-05"
 
 keywords: activity tracker, vpc, events, logdna
 
@@ -216,8 +216,9 @@ The following table lists the actions that are related to flow logs and the gene
 | Resource | Action | Description |
 |---|---|---|
 | flow-log-collector | is.flow-log-collector.flow-log-collector.create | Flow log collector was created |
-| flow-log-collector | is.flow-log-collector.flow-log-collector.update | Flow log collector was updated |
 | flow-log-collector | is.flow-log-collector.flow-log-collector.delete | Flow log collector was deleted |
+| flow-log-collector | is.flow-log-collector.flow-log-collector.read | Flow log collector was read |
+| flow-log-collector | is.flow-log-collector.flow-log-collector.update | Flow log collector was updated |
 {: caption="Table 7. Actions that generate events related to flow log collectors" caption-side="top"}
 
 ## Supported locations
