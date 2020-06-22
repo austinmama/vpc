@@ -36,7 +36,7 @@ To list your flow log collectors using the IBM Cloud console:
 
 1. Navigate to the [Virtual Private Cloud console](https://cloud.ibm.com/vpc/).
 2. Select **Gen 2 Compute**.
-3. From the left navigation pane, click **Flow Log Collectors (beta)**. If available, a list of provisioned flow logs collectors shows.  
+3. From the left navigation pane, click **Flow Log Collectors**. If available, a list of provisioned flow logs collectors shows.  
 
    Flow log collector attributes shown in the table are as follows:
 
