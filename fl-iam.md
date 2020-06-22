@@ -62,6 +62,9 @@ In addition, you also require the following actions and operations that are not 
 | Operator on VPC    | Create flow log collector with VPC scope    |
 | Operator on VSI | Create flow log collector with Instance or Interface scope  |
 {: caption="Table 2. Additional IAM user roles and actions" caption-side="top"}
+
+
+**Powell comment: Confusing - what does this mean?**
  
 You must also enable the following "downstream" operations:
 
