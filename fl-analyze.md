@@ -27,6 +27,8 @@ subcollection: vpc
 # Viewing flow log objects
 {: #fl-analyze}
 
+**Connection - keep or replace?  Comment from Powell that this term is central to the understanding of flow logs.**
+
 A flow log summarizes the network traffic that is sent and received by a specific virtual network interface card (vNIC), over a specific connection, within a certain time window. A flow log describes either traffic that is accepted by the firewall (relevant security groups or network ACLs), or rejected traffic, but not both.
 {:shortdesc}
 
